@@ -1,0 +1,36 @@
+#formulario{
+    max-width: 400px;
+    margin: 0 auto;
+    background: #e4e4e4;
+    padding: 20px;
+    border: 2px solid #f1530a;
+    border-radius: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select{
+    display:inline-block;
+    width:100%;
+    padding:10px;
+    margin:6px 0;
+    border:1px solid #f1530a;
+    border-radius:4px;
+    box-sizing:border-box;
+}
+
+h2{
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color:#f1530a;
+    color: #fff;
+    border-radius: 4px;
+    padding: 14px 20px;
+    margin: 0 auto;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
